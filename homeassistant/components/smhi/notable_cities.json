@@ -1,0 +1,531 @@
+{
+  "source": "https://simplemaps.com/data/se-cities",
+  "cities": [
+    {
+      "city": "Stockholm",
+      "lat": "59.3294",
+      "lng": "18.0686",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Stockholm",
+      "capital": "primary",
+      "population": "1611776",
+      "population_proper": "978770"
+    },
+    {
+      "city": "Värnamo",
+      "lat": "57.1831",
+      "lng": "14.0478"
+    },
+    {
+      "city": "Sälen",
+      "lat": "61.1546",
+      "lng": "13.2680"
+    },
+    {
+      "city": "Kiruna",
+      "lat": "67.8557",
+      "lng": "20.2252"
+    },
+    {
+      "city": "Arjeplog",
+      "lat": "66.0515",
+      "lng": "17.8866"
+    },
+    {
+      "city": "Gothenburg",
+      "lat": "57.7075",
+      "lng": "11.9675",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västra Götaland",
+      "capital": "admin",
+      "population": "607882",
+      "population_proper": "607882"
+    },
+    {
+      "city": "Malmö",
+      "lat": "55.6058",
+      "lng": "13.0358",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Skåne",
+      "capital": "admin",
+      "population": "351749",
+      "population_proper": "351749"
+    },
+    {
+      "city": "Norrköping",
+      "lat": "58.6000",
+      "lng": "16.2000",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Östergötland",
+      "capital": "minor",
+      "population": "137326",
+      "population_proper": "137326"
+    },
+    {
+      "city": "Uppsala",
+      "lat": "59.8601",
+      "lng": "17.6400",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Stockholm",
+      "capital": "",
+      "population": "133117",
+      "population_proper": "133117"
+    },
+    {
+      "city": "Västerås",
+      "lat": "59.6161",
+      "lng": "16.5528",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västmanland",
+      "capital": "admin",
+      "population": "128660",
+      "population_proper": "128660"
+    },
+    {
+      "city": "Örebro",
+      "lat": "59.2739",
+      "lng": "15.2075",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Örebro",
+      "capital": "admin",
+      "population": "126604",
+      "population_proper": "126604"
+    },
+    {
+      "city": "Linköping",
+      "lat": "58.4158",
+      "lng": "15.6253",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Östergötland",
+      "capital": "admin",
+      "population": "115682",
+      "population_proper": "115682"
+    },
+    {
+      "city": "Helsingborg",
+      "lat": "56.0500",
+      "lng": "12.7167",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Skåne",
+      "capital": "minor",
+      "population": "113828",
+      "population_proper": "113828"
+    },
+    {
+      "city": "Jönköping",
+      "lat": "57.7828",
+      "lng": "14.1606",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Jönköping",
+      "capital": "admin",
+      "population": "112766",
+      "population_proper": "112766"
+    },
+    {
+      "city": "Vimmerby",
+      "lat": "57.6667",
+      "lng": "15.8500",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Kalmar",
+      "capital": "minor",
+      "population": "100934",
+      "population_proper": "100934"
+    },
+    {
+      "city": "Sundsvall",
+      "lat": "62.4000",
+      "lng": "17.3167",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västernorrland",
+      "capital": "minor",
+      "population": "99825",
+      "population_proper": "58807"
+    },
+    {
+      "city": "Gävle",
+      "lat": "60.6747",
+      "lng": "17.1417",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Gävleborg",
+      "capital": "admin",
+      "population": "96969",
+      "population_proper": "79004"
+    },
+    {
+      "city": "Umeå",
+      "lat": "63.8250",
+      "lng": "20.2639",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västerbotten",
+      "capital": "admin",
+      "population": "91916",
+      "population_proper": "91916"
+    },
+    {
+      "city": "Karlstad",
+      "lat": "59.3783",
+      "lng": "13.5042",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Värmland",
+      "capital": "admin",
+      "population": "74141",
+      "population_proper": "65856"
+    },
+    {
+      "city": "Södertälje",
+      "lat": "59.1958",
+      "lng": "17.6281",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Stockholm",
+      "capital": "minor",
+      "population": "72704",
+      "population_proper": "72704"
+    },
+    {
+      "city": "Halmstad",
+      "lat": "56.6739",
+      "lng": "12.8572",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Halland",
+      "capital": "admin",
+      "population": "71422",
+      "population_proper": "71422"
+    },
+    {
+      "city": "Eskilstuna",
+      "lat": "59.3708",
+      "lng": "16.5097",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Södermanland",
+      "capital": "minor",
+      "population": "67359",
+      "population_proper": "67359"
+    },
+    {
+      "city": "Karlskrona",
+      "lat": "56.1608",
+      "lng": "15.5861",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Blekinge",
+      "capital": "admin",
+      "population": "66675",
+      "population_proper": "66675"
+    },
+    {
+      "city": "Växjö",
+      "lat": "56.8769",
+      "lng": "14.8092",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Kronoberg",
+      "capital": "admin",
+      "population": "66275",
+      "population_proper": "66275"
+    },
+    {
+      "city": "Borås",
+      "lat": "57.7211",
+      "lng": "12.9403",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västra Götaland",
+      "capital": "minor",
+      "population": "66273",
+      "population_proper": "66273"
+    },
+    {
+      "city": "Trollhättan",
+      "lat": "58.2828",
+      "lng": "12.2892",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västra Götaland",
+      "capital": "minor",
+      "population": "59210",
+      "population_proper": "59210"
+    },
+    {
+      "city": "Östersund",
+      "lat": "63.1792",
+      "lng": "14.6358",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Jämtland",
+      "capital": "admin",
+      "population": "49806",
+      "population_proper": "49806"
+    },
+    {
+      "city": "Luleå",
+      "lat": "65.5844",
+      "lng": "22.1539",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Norrbotten",
+      "capital": "admin",
+      "population": "49123",
+      "population_proper": "49123"
+    },
+    {
+      "city": "Kalmar",
+      "lat": "56.6614",
+      "lng": "16.3628",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Kalmar",
+      "capital": "admin",
+      "population": "41852",
+      "population_proper": "41852"
+    },
+    {
+      "city": "Lidköping",
+      "lat": "58.5000",
+      "lng": "13.1833",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västra Götaland",
+      "capital": "minor",
+      "population": "40000",
+      "population_proper": "40000"
+    },
+    {
+      "city": "Skövde",
+      "lat": "58.3833",
+      "lng": "13.8500",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västra Götaland",
+      "capital": "minor",
+      "population": "39580",
+      "population_proper": "39580"
+    },
+    {
+      "city": "Nyköping",
+      "lat": "58.7531",
+      "lng": "17.0086",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Södermanland",
+      "capital": "admin",
+      "population": "38780",
+      "population_proper": "38780"
+    },
+    {
+      "city": "Falun",
+      "lat": "60.6072",
+      "lng": "15.6311",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Dalarna",
+      "capital": "admin",
+      "population": "37291",
+      "population_proper": "37291"
+    },
+    {
+      "city": "Västervik",
+      "lat": "57.7500",
+      "lng": "16.6333",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Kalmar",
+      "capital": "minor",
+      "population": "36747",
+      "population_proper": "36747"
+    },
+    {
+      "city": "Varberg",
+      "lat": "57.1167",
+      "lng": "12.2167",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Halland",
+      "capital": "minor",
+      "population": "35782",
+      "population_proper": "35782"
+    },
+    {
+      "city": "Ystad",
+      "lat": "55.4167",
+      "lng": "13.8333",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Skåne",
+      "capital": "minor",
+      "population": "28985",
+      "population_proper": "28985"
+    },
+    {
+      "city": "Visby",
+      "lat": "57.6290",
+      "lng": "18.3071",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Gotland",
+      "capital": "admin",
+      "population": "24951",
+      "population_proper": "24951"
+    },
+    {
+      "city": "Kungsbacka",
+      "lat": "57.4833",
+      "lng": "12.0667",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Halland",
+      "capital": "minor",
+      "population": "23000",
+      "population_proper": "23000"
+    },
+    {
+      "city": "Härnösand",
+      "lat": "62.6361",
+      "lng": "17.9411",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västernorrland",
+      "capital": "admin",
+      "population": "18508",
+      "population_proper": "18508"
+    },
+    {
+      "city": "Hässleholm",
+      "lat": "56.1667",
+      "lng": "13.7667",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Skåne",
+      "capital": "minor",
+      "population": "18500",
+      "population_proper": "18500"
+    },
+    {
+      "city": "Norrtälje",
+      "lat": "59.7667",
+      "lng": "18.7000",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Stockholm",
+      "capital": "minor",
+      "population": "17275",
+      "population_proper": "17275"
+    },
+    {
+      "city": "Oskarshamn",
+      "lat": "57.2650",
+      "lng": "16.4500",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Kalmar",
+      "capital": "minor",
+      "population": "17258",
+      "population_proper": "17258"
+    },
+    {
+      "city": "Arvika",
+      "lat": "59.6542",
+      "lng": "12.5914",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Värmland",
+      "capital": "minor",
+      "population": "14244",
+      "population_proper": "14244"
+    },
+    {
+      "city": "Nynäshamn",
+      "lat": "58.9000",
+      "lng": "17.9500",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Stockholm",
+      "capital": "minor",
+      "population": "13510",
+      "population_proper": "13510"
+    },
+    {
+      "city": "Söderhamn",
+      "lat": "61.3000",
+      "lng": "17.0833",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Gävleborg",
+      "capital": "minor",
+      "population": "11761",
+      "population_proper": "11761"
+    },
+    {
+      "city": "Stenungsund",
+      "lat": "58.0833",
+      "lng": "11.8167",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västra Götaland",
+      "capital": "minor",
+      "population": "9987",
+      "population_proper": "9987"
+    },
+    {
+      "city": "Älmhult",
+      "lat": "56.5500",
+      "lng": "14.1333",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Kronoberg",
+      "capital": "minor",
+      "population": "8955",
+      "population_proper": "8955"
+    },
+    {
+      "city": "Karlsborg",
+      "lat": "58.5333",
+      "lng": "14.5167",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västra Götaland",
+      "capital": "minor",
+      "population": "3749",
+      "population_proper": "3749"
+    },
+    {
+      "city": "Öckerö",
+      "lat": "57.7000",
+      "lng": "11.6500",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Västra Götaland",
+      "capital": "minor",
+      "population": "3488",
+      "population_proper": "3488"
+    },
+    {
+      "city": "Borgholm",
+      "lat": "56.8792",
+      "lng": "16.6558",
+      "country": "Sweden",
+      "iso2": "SE",
+      "admin_name": "Kalmar",
+      "capital": "minor",
+      "population": "3071",
+      "population_proper": "3071"
+    }
+  ]
+}
