@@ -46,21 +46,17 @@ def fake_warning_data():
                         # ... other descriptions ...
                     ],
                     "area": {
-                        "type": "FeatureCollection",
-                        "features": [
-                            {
-                                "type": "Feature",
-                                "geometry": {
-                                    "type": "Polygon",
-                                    "coordinates": [
-                                        [
-                                            [17.301084, 60.750685],
-                                            # ... other coordinates ...
-                                        ]
-                                    ],
-                                },
-                            }
-                        ],
+                        "crs": {"type": "name", "properties": {"name": "EPSG:4326"}},
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [23.44053, 59.95832],
+                                    [23.60096, 59.93448],
+                                ],
+                            ],
+                        },
                     },
                 }
             ],

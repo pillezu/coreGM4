@@ -12,7 +12,7 @@ class SmhiWarnings:
     async def get_warnings(self) -> list[SmhiGeolocationEvent]:
         """Get warning data from smhi api."""
         warnings_url = (
-            "https://opendata-download-warnings.smhi.se/ibww/test/test_4.json"
+            "https://opendata-download-warnings.smhi.se/ibww/api/version/1/warning.json"
         )
         smhi_downloader = SmhiDownloader()
         data = await smhi_downloader.download_json(warnings_url)
@@ -45,14 +45,15 @@ class SmhiWarnings:
                 for area in warning.get("warningAreas", [])
             ],
         }
+
         return parsed_warning
 
     def parse_warning_area(self, area: dict[str, Any]) -> dict:
         """Parse individual warning area."""
+
         return {
             "id": area.get("id"),
             "approximateStart": area.get("approximateStart"),
-            "approximateEnd": area.get("approximateEnd"),
             "published": area.get("published"),
             "normalProbability": area.get("normalProbability"),
             "areaName": area.get("areaName", {}),
@@ -60,35 +61,36 @@ class SmhiWarnings:
             "eventDescription": area.get("eventDescription", {}),
             "affectedAreas": area.get("affectedAreas", []),
             "descriptions": area.get("descriptions", []),
-            "geometry": area.get("area", {})
-            .get("features", [{}])[0]
-            .get("geometry", {}),
+            "geometry": area.get("area", {}).get("geometry", {}),
         }
 
     def create_geo_entities_from_warning(
         self, warning: dict
     ) -> list[SmhiGeolocationEvent]:
         """Create geo location entities from a parsed warning."""
+
         entities = []
-        name = str(warning["warningAreas"][0]["descriptions"][0]["text"]["en"])
-        icon = str(warning["warningAreas"][0]["warningLevel"]["code"])
-        icon_url = smhi_warning_icons.get(icon, "")
 
-        coordinates = warning["warningAreas"][0]["geometry"].get("coordinates", [])
-        if len(coordinates) == 1:
-            coordinates = coordinates[0]
+        for area in warning["warningAreas"]:
+            name = str(area["descriptions"][0]["text"]["en"])
+            icon = str(area["warningLevel"]["code"])
+            icon_url = smhi_warning_icons.get(icon, "")
 
-        for location in coordinates:
-            entities.append(
-                SmhiGeolocationEvent(
-                    name,
-                    location[1],
-                    location[0],
-                    icon_url,
-                    "mdi:alert",
-                    "stationary",
-                    "warnings",
+            coordinates = area["geometry"].get("coordinates", [])
+            if len(coordinates) == 1:
+                coordinates = coordinates[0]
+
+            for x in range(0, len(coordinates), 60):
+                entities.append(
+                    SmhiGeolocationEvent(
+                        name,
+                        coordinates[x][1],
+                        coordinates[x][0],
+                        icon_url,
+                        "mdi:alert",
+                        "stationary",
+                        "warnings",
+                    )
                 )
-            )
 
         return entities
