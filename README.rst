@@ -47,7 +47,37 @@ Installation
 
        vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https%3A%2F%2Fgithub.com%2Fpillezu%2FcoreGM4
 
-3. **Run Home Assistant**:
+3. **Configure state variables**
+
+The new features require state variables to be added in the ``configuration.yaml`` file.
+
+* Add the following code at the end of the file:
+
+  ..  code-block:: yaml
+
+      input_boolean:
+      display_fire_risk:
+        name: Display Fire Risk
+        initial: off
+        icon: mdi:fire-alert
+    
+      display_weather:
+        name: Display Weather
+        initial: off
+        icon: mdi:weather-partly-cloudy
+    
+      display_warnings:
+        name: Display Warnings
+        initial: off
+        icon: mdi:alert-circle
+    
+      display_lightning:
+        name: Display Lightning
+        initial: off
+        icon: mdi:weather-lightning
+
+  
+4. **Run Home Assistant**:
 
    * For Mac: Press ``Shift+Command+P``
    * For Windows/Linux: Press ``Ctrl+Shift+P``
